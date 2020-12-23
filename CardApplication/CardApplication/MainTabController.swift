@@ -19,7 +19,7 @@ class MainTabController: UITabBarController {
 
 		view.backgroundColor = .white
 
-		let layout = UICollectionViewFlowLayout()
+		//let layout = UICollectionViewFlowLayout()
 
 		let cards = templateNavigationController(unselectedImage: #imageLiteral(resourceName: "nav_cards"), selectedImage: #imageLiteral(resourceName: "nav_cards"), rootViewController: CardsController())
 

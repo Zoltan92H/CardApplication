@@ -6,6 +6,11 @@ target 'CardApplication' do
   use_frameworks!
 
   # Pods for CardApplication
-	pod 'RxSwift'
-	pod 'RxCocoa'
+	pod 'RxSwift','~> 4.0' 
+  	pod 'RxCocoa','~> 4.0'
+  	pod 'ImageSlideshow', '~> 1.9.0'
+  	pod 'VerticalSteppedSlider'
+  	pod 'MultiProgressView'
+  	pod 'GTProgressBar'
+
 end

@@ -17,6 +17,12 @@
 		054C43EA259026B1007A7B23 /* TransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C43E9259026B1007A7B23 /* TransactionsController.swift */; };
 		054C43ED259026C9007A7B23 /* StatementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C43EC259026C9007A7B23 /* StatementsController.swift */; };
 		054C43F0259026E1007A7B23 /* MoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C43EF259026E1007A7B23 /* MoreController.swift */; };
+		057E4BC92594014600E84E10 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E4BC82594014600E84E10 /* CardViewModel.swift */; };
+		057E4BCE2594016600E84E10 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E4BCD2594016600E84E10 /* CardModel.swift */; };
+		057E4BD2259401C600E84E10 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E4BD1259401C600E84E10 /* URLRequest.swift */; };
+		057E4BD6259401D600E84E10 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E4BD5259401D600E84E10 /* Extensions.swift */; };
+		057E4BD92594020A00E84E10 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E4BD82594020A00E84E10 /* DetailViewController.swift */; };
+		057E4BDD2594025300E84E10 /* CardAttribView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E4BDC2594025300E84E10 /* CardAttribView.swift */; };
 		495B6A297EF8D3810D1385DB /* Pods_CardApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0FECB971B59BE335EF1C91 /* Pods_CardApplication.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +39,12 @@
 		054C43E9259026B1007A7B23 /* TransactionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsController.swift; sourceTree = "<group>"; };
 		054C43EC259026C9007A7B23 /* StatementsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsController.swift; sourceTree = "<group>"; };
 		054C43EF259026E1007A7B23 /* MoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreController.swift; sourceTree = "<group>"; };
+		057E4BC82594014600E84E10 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		057E4BCD2594016600E84E10 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		057E4BD1259401C600E84E10 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		057E4BD5259401D600E84E10 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		057E4BD82594020A00E84E10 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		057E4BDC2594025300E84E10 /* CardAttribView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAttribView.swift; sourceTree = "<group>"; };
 		0DB4D1C932C55C9C1B89CAF3 /* Pods-CardApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardApplication.debug.xcconfig"; path = "Target Support Files/Pods-CardApplication/Pods-CardApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0FECB971B59BE335EF1C91 /* Pods_CardApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9254879E2BD063077D7EA12 /* Pods-CardApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardApplication.release.xcconfig"; path = "Target Support Files/Pods-CardApplication/Pods-CardApplication.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,10 +83,13 @@
 		054C43B6258AB0E4007A7B23 /* CardApplication */ = {
 			isa = PBXGroup;
 			children = (
+				057E4BDB2594021900E84E10 /* View */,
+				057E4BC72594012B00E84E10 /* View Models */,
 				054C43FD2590C850007A7B23 /* Extension */,
 				054C43E425902676007A7B23 /* Controller */,
-				054C43BB258AB0E4007A7B23 /* MainTabController.swift */,
+				057E4BCC2594014F00E84E10 /* Models */,
 				054C43B7258AB0E4007A7B23 /* AppDelegate.swift */,
+				054C43BB258AB0E4007A7B23 /* MainTabController.swift */,
 				054C43B9258AB0E4007A7B23 /* SceneDelegate.swift */,
 				054C43BD258AB0E4007A7B23 /* Main.storyboard */,
 				054C43C0258AB0E7007A7B23 /* Assets.xcassets */,
@@ -88,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				054C43E525902694007A7B23 /* CardsController.swift */,
+				057E4BD82594020A00E84E10 /* DetailViewController.swift */,
 				054C43E9259026B1007A7B23 /* TransactionsController.swift */,
 				054C43EC259026C9007A7B23 /* StatementsController.swift */,
 				054C43EF259026E1007A7B23 /* MoreController.swift */,
@@ -98,8 +114,34 @@
 		054C43FD2590C850007A7B23 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				057E4BD1259401C600E84E10 /* URLRequest.swift */,
+				057E4BD5259401D600E84E10 /* Extensions.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		057E4BC72594012B00E84E10 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				057E4BC82594014600E84E10 /* CardViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		057E4BCC2594014F00E84E10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				057E4BCD2594016600E84E10 /* CardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		057E4BDB2594021900E84E10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				057E4BDC2594025300E84E10 /* CardAttribView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B65F43EA74CA575BED0CF80F /* Pods */ = {
@@ -236,10 +278,16 @@
 				054C43BC258AB0E4007A7B23 /* MainTabController.swift in Sources */,
 				054C43EA259026B1007A7B23 /* TransactionsController.swift in Sources */,
 				054C43F0259026E1007A7B23 /* MoreController.swift in Sources */,
+				057E4BD92594020A00E84E10 /* DetailViewController.swift in Sources */,
 				054C43E625902694007A7B23 /* CardsController.swift in Sources */,
+				057E4BC92594014600E84E10 /* CardViewModel.swift in Sources */,
+				057E4BCE2594016600E84E10 /* CardModel.swift in Sources */,
 				054C43B8258AB0E4007A7B23 /* AppDelegate.swift in Sources */,
 				054C43BA258AB0E4007A7B23 /* SceneDelegate.swift in Sources */,
+				057E4BDD2594025300E84E10 /* CardAttribView.swift in Sources */,
 				054C43ED259026C9007A7B23 /* StatementsController.swift in Sources */,
+				057E4BD6259401D600E84E10 /* Extensions.swift in Sources */,
+				057E4BD2259401C600E84E10 /* URLRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

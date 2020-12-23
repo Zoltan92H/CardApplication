@@ -1,26 +1,39 @@
 PODS:
-  - RxCocoa (5.1.1):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxRelay (5.1.1):
-    - RxSwift (~> 5)
-  - RxSwift (5.1.1)
+  - GTProgressBar (0.3.3)
+  - ImageSlideshow (1.9.1):
+    - ImageSlideshow/Core (= 1.9.1)
+  - ImageSlideshow/Core (1.9.1)
+  - MultiProgressView (1.3.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - VerticalSteppedSlider (0.1.0)
 
 DEPENDENCIES:
-  - RxCocoa
-  - RxSwift
+  - GTProgressBar
+  - ImageSlideshow (~> 1.9.0)
+  - MultiProgressView
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - VerticalSteppedSlider
 
 SPEC REPOS:
   trunk:
+    - GTProgressBar
+    - ImageSlideshow
+    - MultiProgressView
     - RxCocoa
-    - RxRelay
     - RxSwift
+    - VerticalSteppedSlider
 
 SPEC CHECKSUMS:
-  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
-  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
-  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  GTProgressBar: a480283ecb0ada50de16c71e634892826928f640
+  ImageSlideshow: 67184be896a28472bd3b906c33ce4e0734aa3d22
+  MultiProgressView: 65e5bb8181687099ade56d16d85d245a92fafa96
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  VerticalSteppedSlider: c1513f095cda3d27e327de7fab6d3f8425a8dc46
 
-PODFILE CHECKSUM: a8202afaf65e1faaaf51722b5e78a34bd30b5c3a
+PODFILE CHECKSUM: e3aab7d89ae297ed5eaef76d5c4c33394433ab83
 
 COCOAPODS: 1.10.0
